@@ -1,0 +1,200 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f5f5f5',
+  },
+  carregando: {
+    fontSize: 18,
+    textAlign: 'center',
+    marginTop: 50,
+    color: '#666',
+  },
+  dica: {
+    fontSize: 14,
+    textAlign: 'center',
+    marginTop: 20,
+    color: '#888',
+  },
+  ip: {
+    fontSize: 16,
+    textAlign: 'center',
+    marginTop: 10,
+    color: '#2196F3',
+    fontWeight: 'bold',
+  },
+  header: {
+    backgroundColor: '#2196F3',
+    padding: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+  },
+  titulo: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: 'white',
+    textAlign: 'center',
+  },
+  subtitulo: {
+    fontSize: 14,
+    color: 'rgba(255,255,255,0.8)',
+    textAlign: 'center',
+    marginTop: 5,
+  },
+  mesAtual: {
+    fontSize: 16,
+    color: 'white',
+    textAlign: 'center',
+    marginTop: 10,
+    textTransform: 'capitalize',
+  },
+  cardsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 15,
+    marginTop: -30,
+  },
+  card: {
+    flex: 1,
+    padding: 15,
+    borderRadius: 10,
+    marginHorizontal: 5,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  cardReceita: {
+    backgroundColor: '#4CAF50',
+  },
+  cardDespesa: {
+    backgroundColor: '#F44336',
+  },
+  cardSaldo: {
+    backgroundColor: '#2196F3',
+  },
+  cardSaldoNegativo: {
+    backgroundColor: '#FF9800',
+  },
+  cardTitulo: {
+    fontSize: 12,
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  cardValor: {
+    fontSize: 18,
+    color: 'white',
+    fontWeight: 'bold',
+    marginTop: 5,
+  },
+  cartaoContainer: {
+    backgroundColor: 'white',
+    margin: 15,
+    padding: 15,
+    borderRadius: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
+  },
+  cartaoTitulo: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 10,
+  },
+  cartaoInfo: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  cartaoItem: {
+    alignItems: 'center',
+  },
+  cartaoLabel: {
+    fontSize: 12,
+    color: '#666',
+  },
+  cartaoValor: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#333',
+    marginTop: 5,
+  },
+  disponivel: {
+    color: '#4CAF50',
+  },
+  botoesContainer: {
+    padding: 15,
+  },
+  botaoPrincipal: {
+    backgroundColor: '#2196F3',
+    padding: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  botaoTexto: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  botaoSecundario: {
+    backgroundColor: 'white',
+    padding: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#2196F3',
+  },
+  botaoSecundarioTexto: {
+    color: '#2196F3',
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+  statusContainer: {
+    backgroundColor: 'white',
+    margin: 15,
+    marginTop: 5,
+    padding: 15,
+    borderRadius: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
+  },
+  statusTitulo: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#666',
+    marginBottom: 10,
+  },
+  statusItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  statusDot: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    marginRight: 10,
+  },
+  statusAtivo: {
+    backgroundColor: '#4CAF50',
+  },
+  statusTexto: {
+    fontSize: 12,
+    color: '#333',
+  },
+  ipInfo: {
+    fontSize: 11,
+    color: '#888',
+    textAlign: 'center',
+    marginTop: 10,
+  },
+});
